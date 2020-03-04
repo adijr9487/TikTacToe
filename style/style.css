@@ -1,0 +1,235 @@
+/* font-family: 'Yeon Sung', ;
+font-family: 'Rubik', ;
+font-family: 'Ubuntu', ;
+font-family: 'Mukta', ;
+font-family: 'Quicksand', ;
+font-family: 'Nanum Gothic', ; */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#916dd5;
+    text-align: center;
+}
+.body0 {
+    background-color:#fa8282;
+}
+.body1 {
+    background-color:#916dd5;
+}   
+.body2 {
+    background-color:#916dd5;
+}
+.body3 {
+    background-color:#916dd5;
+}
+
+.head{
+    font-family: 'Quicksand';
+    font-size: 3rem;
+    color: #9818d6;
+    margin-top: 0;
+    padding-top: 40px;
+}
+.head0{
+    color: #2d132c;
+}
+.head1{
+    color: green
+}
+.head2{
+    color: blue;
+}
+.head3 {
+    color: #9818d6;
+}
+.status{
+    color: #d89cf6;
+    font-family: 'Mukta';
+}
+.status0{
+    color: #c72c41;
+}
+.status1{
+    color: #d89cf6;
+}
+.statu2{
+    color: #d89cf6;
+}
+.statu3{
+    color: #d89cf6;
+}
+.main {
+    height: 488px;
+    width:485px;
+    background-color: #916dd5;  
+    display: inline-block;
+    margin-top: 30px;
+}
+.row {
+    height: 160px;
+    width: 100%;
+}
+.box {
+    background-color: #f0e3ff;
+    height: 160px;
+    width: 160px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    float: left;
+    font-family: 'Yeon Sung';
+    /* font-size: 10rem; */
+    color: #e1f4f3;
+    line-height: 160px;
+}
+.box0{
+    background-color: #c72c41;
+}
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: purple;
+}
+
+.mt {
+    border: 2px #ffffff solid;
+    border-top: none;
+    border-bottom: none;
+}
+.rule {
+    padding: 0;
+    margin: 0;
+    height: 0;
+    border: transparent; 
+    border-top: 3px solid #ffffff;
+}
+.box:hover {
+    opacity: 1;
+    background-color: #d89cf6;
+
+}
+.press {
+    background-color: #916dd5;
+    color: #e1f4f3;
+    animation: click 0.2s forwards;
+}
+.footer {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+}
+
+.theame {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+.over {
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+    color: rgb(225, 250, 4);
+    font-size: 8rem;
+    text-align: center;
+    font-family: 'Rubik';
+}
+.over {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.button{
+    position: absolute;
+    margin-left: -40px;
+    display: inline-block;
+    background-color: teal;
+    height: 40px;
+    width: 10%;
+    color: white;
+    line-height: 40px;
+    font-size: 1rem;
+    font-family: 'Ubuntu';
+}
+a{
+    opacity: 1;
+}
+.cross_score , .knot_score{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    margin-top: 250px;
+}
+.knot_score {
+    right: 0;
+}
+.h{
+    color: #ffffff;
+    font-family: 'Nanum Gothic';
+    font-size: 2rem;
+}
+.p{
+    color: white;
+    font-size: 10rem;
+    margin-top: 20px;
+    font-family: 'Nanum Gothic';
+}
+.button:hover{
+    background-color: rgb(37, 214, 67);
+}
+._1{
+    background-color: red;
+}
+._2{
+    background-color: green;
+}
+._3{
+    background-color: blue;
+}
+._4{
+    background-color: #916dd5;
+}
+
+.theame:hover {
+    animation: tran .5s forwards;
+}
+
+@keyframes tran
+{
+    from{
+        height: 50px;
+        width: 50px;
+    }
+    to{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@keyframes click
+{
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 10rem;
+    }
+}
+@media only screen and (max-width: 488px) 
+{
+    .main {
+        width:100%;
+        margin-top: 50px;
+    }
+    .box {
+        width: 32.5%;
+    }
+}
